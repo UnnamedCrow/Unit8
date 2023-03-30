@@ -38,7 +38,7 @@ namespace Task1
                         CleanDirectory(s);
                 }
             }
-            Console.WriteLine("Long time used directories and files deleted!");
+
         }
 
         static void Main(string[] args)
@@ -56,6 +56,7 @@ namespace Task1
                     Console.WriteLine(e.ToString());
                 }
             }
+            Console.WriteLine("Long time used directories and files deleted!");
             Console.ReadLine();
         }
     }
